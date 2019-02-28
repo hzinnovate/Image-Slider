@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <center>
+        <div id="main">
+            <div class="mySlides anim">
+                <img id="img" src="mec.jpg">
+                <p id="num">1 / 6</p>
+                <p id="name">Mecleran</p>
+            </div>
+            <div class="mySlides anim">
+                <img id="img" src="lam.jpg">
+                <p id="num">2 / 6</p>
+                <p id="name">Lamberghini</p>
+            </div>
+            <div class="mySlides anim">
+                <img id="img" src="fer.jpg">
+                <p id="num">3 / 6</p>
+                <p id="name">Ferrari</p>
+            </div>
+            <div class="mySlides anim">
+                <img id="img" src="bmw.jpg">
+                <p id="num">4 / 6</p>
+                <p id="name">BMW</p>
+            </div>
+            <div class="mySlides anim">
+                <img id="img" src="audi.jpg">
+                <p id="num">5 / 6</p>
+                <p id="name">Audi</p>
+            </div>
+            <div class="mySlides anim">
+                <img id="img" src="honda-nxs.jpg">
+                <p id="num">6 / 6</p>
+                <p id="name">Honda NXS</p>
+            </div>
+            <a id="right" href="JavaScript:void(0)" onClick="slideP(1)">&#62;</a>
+            <a id="left" href="JavaScript:void(0)" onClick="slideP(-1)">&#60;</a>
+        </div>
+        <div class="sel">
+            <span class="dot" onclick="select(1)"></span>
+            <span class="dot" onclick="select(2)"></span>
+            <span class="dot" onclick="select(3)"></span>
+            <span class="dot" onclick="select(4)"></span>
+            <span class="dot" onclick="select(5)"></span>
+            <span class="dot" onclick="select(6)"></span>
+        </div>
+        </div>
+
+    </center>
+</body>
+<script src="app.js"></script>
+
+</html>
